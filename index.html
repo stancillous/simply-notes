@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Notes</title>
+
+    <!-- satoshi font link -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap" rel="stylesheet">
+    <!-- general-sans font link -->
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@200,500,300,600,400,700&display=swap" rel="stylesheet">
+
+    <!-- britney font link -->
+    <link href="https://api.fontshare.com/v2/css?f[]=britney@400,700,300,1000&display=swap" rel="stylesheet">
+
+    <!-- panchang font -->
+    <link href="https://api.fontshare.com/v2/css?f[]=panchang@500,300,400,600&display=swap" rel="stylesheet">
+
+    <!-- melodrama font -->
+    <link href="https://api.fontshare.com/v2/css?f[]=melodrama@300,400,600,700,500&display=swap" rel="stylesheet">
+
+
+    <!-- dancing script -->
+    <link href="https://api.fontshare.com/v2/css?f[]=dancing-script@700,400&display=swap" rel="stylesheet">
+
+    <!-- literate font -->
+    <link href="https://api.fontshare.com/v2/css?f[]=literata@400,700,500,600,300&display=swap" rel="stylesheet">
+
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/80f7a4397b.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+
+
+    <header class="header">
+        <div class="page-header-container">
+            <div class="page-header-content-parent">
+                <div class="page-header-content">
+                    <div class="phs">
+                        <div class="logo">
+                            <h1>simply notes</h1>
+                        </div>
+                        <!-- <div class="github-link">
+                            <a href="https://github.com/stancillous/"><i class="fa-brands fa-square-github"></i></a>
+
+                        </div> -->
+                        <div class="more-info">
+                            <!-- <i class="fa-solid fa-list-ul"></i> -->
+                            <i id="more-info-button" class="fa-solid fa-ellipsis-vertical"></i>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more-info-div">
+
+                <div id="change-font" class="change-font middiv">
+                    <div class="options-container">
+                        <div class="options-content">
+            
+                            <form id="form" action="">
+                                <select name="" id="change-font">
+                                    <option value="">Change font</option>
+                                    <option id="default" value="default">default</option>
+                                    <option value="melodrama" id="melodrama">Melodrama</option>
+                                    <option value="dancingScript" id="dancingscript">Dancing Script</option>
+                                    <option value="panchang" id="panchang">Panchang</option>
+                                    <option value="literata" id="literata">Literata</option>
+                                    <option id="britney" value="britney">Britney</option>
+                                    <option id="generalsans" value="generalSans">General Sans</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="change-body-color middiv">
+                    <div class="cbc-container">
+                        <div class="cbc-content-parent">
+                            <div class="cbc-content">
+                                <div class="cbc">
+                                    
+                                    <form action="" id="change-color">
+                                        <select name="" id="change-color">
+                                            <option value="changecolor">Change BgColor</option>
+                                            <option value="default" id="default">default</option>
+                                            <option value="lightgreen" id="lightgreen">lightgreen</option>
+                                            <option value="plum" id="plum">plum</option>
+                                            <option value="flax" id="flax">flax color</option>
+                                            <option value="whitesmoke" id="whitesmoke">whitesmoke</option>
+                                            <option value="lightbrown" id="lightbrown">lightbrown</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+
+   
+
+    </header>
+    <div class="dinf-d">
+        <ul>
+            <li>clicking outside the textarea will save your note</li>
+            <li>double click any note to delete it</li>
+        </ul>
+
+    </div>
+
+
+
+    <div class="notes" id="app">
+        <!-- <div class="notes__sidebar">
+            <button class="notes__add" type="button">Add Note</button>
+            <div class="notes__list">
+                <div class="notes__list-item notes__list-item--selected">
+                    <div class="notes__small-title">Lecture Notes</div>
+                    <div class="notes__small-body">The class took forever :(</div>
+                    <div class="notes__small-updated">Thursday 3:30pm</div>
+             
+                </div>
+            </div>
+        </div>
+        <div class="notes__preview">
+            <input class="notes__title" type="text" placeholder="Enter a title...">
+            <textarea class="notes__body">I am the notes body...</textarea>
+        </div> -->
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
